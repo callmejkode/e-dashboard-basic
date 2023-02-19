@@ -29,3 +29,11 @@ code {
   .close-navbar-toggler.collapsed{
     z-index:-1;
   }
+
+  /* Footer */
+
+  .FooterSectionCSS{
+
+    position: fixed;
+    bottom: 0;
+  }

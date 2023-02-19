@@ -1,5 +1,6 @@
-import Nav from './Nav'
+import Nav from './components/Nav'
 import { BrowserRouter , Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/profile' element={<h1>Profile component will be displayed</h1>}/>
       </Routes>
       </BrowserRouter>
+      <Footer/>
       
 
     </div>
