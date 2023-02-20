@@ -20,6 +20,8 @@ export default function Nav() {
        <Link to ='/update' class="nav-link">Update Product</Link>
        <Link to ='/logout' class="nav-link">logout</Link>
        <Link to ='/profile' class="nav-link"> Profile</Link>
+       <Link to ='/signup' class="nav-link"> Sign-up</Link>
+
       </div>
     </div>
   </div>
